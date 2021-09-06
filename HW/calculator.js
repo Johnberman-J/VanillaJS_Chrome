@@ -5,6 +5,9 @@ const calculator = {
     minus : function(a,b) {
         console.log(a-b);
     },
+    times : function(a,b) {
+        console.log(a*b)
+    },
     div : function(a,b) {
         console.log(a/b);
     },
