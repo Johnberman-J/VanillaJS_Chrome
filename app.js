@@ -1,9 +1,10 @@
-const classID = document.querySelector(".something h1");
+const loginForm = document.querySelector(".login-form");
+const loginInput = loginForm.querySelector("input");
+const loginButton = loginForm.querySelector("button");
 
-
-
-function clickMe() {
-    classID.classList.toggle("clicked");
+function buttonClick() {
+    const userName = loginInput.value;
+    console.log(userName);
 }
 
-classID.onclick = clickMe;
+loginButton.onclick = buttonClick;
